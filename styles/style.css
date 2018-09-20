@@ -27,9 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
-ol, ul {
-  list-style: none;
-}
+s
 blockquote, q {
   quotes: none;
 }
@@ -54,10 +52,11 @@ header {
   color: white;
   text-align: center;
   font-size: 50px;
-  height: 80px;
+  height: 60px;
+  margin: 10px auto;
 }
 .main {
-  height: 200px;
+  height: auto;
   margin: auto;
   width: 70%;
   border-radius: 5px;
@@ -71,13 +70,14 @@ form {
 label {
   color: #005580;
 }
-input {
+#task-input {
   border: 1px solid #6cf;
   height: 22px;
   border-radius: 5px;
   width: 300px;
 }
-.add-button {
+
+#add-button {
   text-align: center;
   color: white;
   background-color: #6cf;
@@ -85,6 +85,15 @@ input {
   height: 25px;
   border-radius: 5px;
 }
-.tasks {
-  /* background-color: ; */
+#task-div {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 100px;
+  color: #005580;
+}
+#task-list {
+  text-align: left;
+}
+#task-list li {
+    padding: 3px 0;
 }
